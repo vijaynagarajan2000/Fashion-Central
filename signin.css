@@ -1,0 +1,62 @@
+div{
+    width: 500px;
+    height: 530px;
+    padding-top: 10px;
+    margin-left: 380px;
+    margin-top: 25px;
+    background-color: white;
+    border-radius: 2px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+body{
+    background-image: url(Images/winter1.jpg);
+    /* background-attachment: fixed; */
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+}
+h1{
+    margin-left: 50px;
+}
+span{
+    color: blue;
+}
+p{
+    margin-left: 50px;
+}
+.label{
+    margin-left: 50px;
+}
+.email{
+    width: 400px;
+    height: 35px;
+    margin-left: 50px;
+    border-radius: 8px;
+    border-width: 1px;
+}
+.continue{
+    margin-left: 320px;
+    width: 80px;
+    height: 30px;
+    border-radius: 30px;
+    border: 2px;
+    cursor: pointer;
+    background-color: rgb(15, 108, 239);
+    color: white;
+}
+.or{
+    margin-left: 230px;
+}
+.button{
+    margin-left: 50px;
+    padding-bottom: 10px;
+    width: 400px;
+    height: 55px;
+    border-radius: 20px;
+    border-width: 1px;
+    font-weight: bold;
+}
+img{
+    width: 22px;
+    height: 22px;
+    margin-top: 5px;
+}

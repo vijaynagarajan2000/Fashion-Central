@@ -1,0 +1,152 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    
+}
+.nav1,.fc,ul,li{
+    display: flex;
+    align-items: center;
+}
+.fc{
+    background:linear-gradient(rgb(202, 200, 200),white);
+    font-size: 18px;
+    padding: 13px; 
+}
+.fc img{
+    width: 40px;
+    height: 60px;
+}
+
+.fc h1{
+    margin-left: 5px;
+    color: rgb(7, 93, 64);
+    font-family:'Times New Roman', Times, serif;  
+    margin-bottom: 5px;
+}
+.fc ul{
+    font-size: 19px;
+}
+
+
+.dots{
+    margin-left: 15px;
+    cursor: pointer;
+}
+.dots:hover{
+    position: relative;
+}
+.dots:hover .dropdown{
+    display: block;
+}
+.dropdown{
+    position: absolute;
+    display: none;
+    top: 20px;
+    right: 1px;
+}
+.dropdown li{
+    color: rgb(48, 14, 125);
+}   
+ul{
+    margin-left: 5%;
+}
+li{
+    padding: 2px 15px;
+    color:black;
+    cursor: pointer;
+}
+.search{
+    margin-left: 2%;
+    width: 390px;
+    height: 40px;
+    outline: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.ul2{
+    margin-left: 0%;
+    justify-content: center;
+    background-color: rgb(201, 215, 215);
+}
+.ul2 li{
+    margin: 5px 50px;
+    font-weight: bold;
+    font-size: 20px;
+}
+/* header{
+    position: fixed;
+    width: 1265px;
+} */
+
+.cartpage{
+    display: flex;
+    align-items: center;
+    margin: 70px 290px;
+    height: 300px;
+}
+.cart p{
+    color: rgb(29, 126, 206);
+}
+button{
+    border: 2px;
+    height: 30px;
+    border-radius: 5px;
+    font-size:medium;
+}
+.bu1{
+    background-color: yellow;
+    width: 185px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.bu2{
+    width: 110px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+
+.footer{
+    height: 250px;
+    /* background-color:rgb(6, 6, 34); */
+    display: grid;
+    grid-template-columns: 30% 30% 40%;
+    color: beige;
+    padding-left: 100PX;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background: linear-gradient(to right,rgb(180, 209, 209),rgb(185, 182, 160)); 
+    color: rgb(7, 7, 7);;
+}
+.cont{
+    color: rgb(8, 8, 8);
+    font-size: xx-large;
+    font-family: monospace;
+    margin-top: 35px;
+}
+.links,.can{
+    padding-top: 30px;
+    font-size: x-large;
+    font-family:monospace;
+    
+}
+.links li,.can li{
+    padding: 5px;
+}
+.pol
+{
+    font-size: xx-large;
+}
+.contact p{
+    margin-top: 20px;
+    font-size: larger;
+}
+address{
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-size: larger;
+}
